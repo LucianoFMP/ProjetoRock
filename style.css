@@ -52,6 +52,14 @@ transition: background .4s;
             background-color:#ee8b1a;
         } 
 
+#fundo {
+  background-image: url(blackwhite.jpg);
+  background-position: left top;
+  background-repeat: no-repeat, repeat;
+  padding: 50px;
+
+}
+    
 body{
 
    background-color: rgb(214, 122, 127); 
