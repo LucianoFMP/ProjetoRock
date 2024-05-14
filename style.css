@@ -54,9 +54,6 @@ transition: background .4s;
 
 body{
 
-    <style>
-background-image: url('singer.png');
-background-repeat: no-repeat;
-<style/>
+   background-color: rgb(214, 122, 127); 
     
 }
