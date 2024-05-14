@@ -51,19 +51,11 @@ transition: background .4s;
         #menu-h ul li:last-child a:hover{
             background-color:#ee8b1a;
         } 
-
-#fundo {
-  background-image: url(blackwhite.jpg);
-  background-size: contain;
-  background-position: left top;
-  background-repeat: no-repeat;
-  padding: 700px;
   
-
-}
-    
 body{
 
-   background-color: rgb(214, 122, 127); 
-    
+  background-image: url(blackwhite.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
 }
