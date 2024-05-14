@@ -53,7 +53,11 @@ transition: background .4s;
         } 
 
 #fundo {
-  background: no-repeat center/100% url(blackwhite.jpg);
+  background-image: url(blackwhite.jpg);
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding: 700px;
   
 
 }
