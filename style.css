@@ -52,10 +52,14 @@ transition: background .4s;
             background-color:#ee8b1a;
         } 
   
+   .box {
+  background-image: url(blackwhite.jpg);
+  background-repeat: no-repeat;
+  background-size: 100px 10em;
+}
+
 body{
 
-  background-image: url(blackwhite.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
+background-collor: stateblue;
   
 }
