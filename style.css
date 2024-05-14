@@ -55,7 +55,7 @@ transition: background .4s;
    .box {
   background-image: url(blackwhite.jpg);
   background-repeat: no-repeat;
-  background-size: 100px 10em;
+  background-size: cover;
 }
 
 body{
