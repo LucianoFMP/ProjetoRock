@@ -9,7 +9,7 @@ box-sizing: border-box;
 font-family: 'playfair display';
 }
 #menu-h{
-background-color:rgb(32, 35, 40);
+    background-color:rgb(32, 35, 40);
 }
 
 #menu-h ul{
@@ -37,22 +37,22 @@ transition: background .4s;
 
 #menu-h ul li a:hover{
 
-background-color:#ee8b1a;
+    background-color:#ee8b1a;
+       
+    }
 
-}
+    #menu-h ul li:last-child a {
 
-#menu-h ul li:last-child a {
+      float: right;
+      background-color:rgb(243, 243, 103);
+      color: black;
+        }
 
-float: right;
-background-color:rgb(243, 243, 103);
-color: black;
-}
-
-#menu-h ul li:last-child a:hover{
-background-color:#ee8b1a;
-}
+        #menu-h ul li:last-child a:hover{
+            background-color:#ee8b1a;
+        } 
 
 body{
 
-background-color: rgb(50, 39, 117);
+    background-color: rgb(50, 39, 117);
 }
