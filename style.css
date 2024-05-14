@@ -54,8 +54,6 @@ transition: background .4s;
 
 #fundo {
   background: no-repeat center/100% url(blackwhite.jpg);
-  background-size: cover;
-  background-position: center;
   
 
 }
