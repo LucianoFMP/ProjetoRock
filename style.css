@@ -54,10 +54,10 @@ transition: background .4s;
 
 #fundo {
   background-image: url(blackwhite.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
-  padding: 700px;
+
 
 
 }
