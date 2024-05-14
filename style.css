@@ -54,5 +54,7 @@ transition: background .4s;
 
 body{
 
-    background-color: rgb(50, 39, 117);
+background-image: url('blackwhite.jpg');
+background-repeat: no-repeat;
+
 }
