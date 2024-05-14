@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import
+url(&#39;https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..90
+0&amp;display=swap&#39;);
 
 * {
 
 margin: 0 auto;
 padding: 0;
 box-sizing: border-box;
-font-family: 'playfair display';
+font-family: &#39;playfair display&#39;;
 }
-
 #menu-h{
-    background-color:rgb(32, 35, 40);
+background-color:rgb(32, 35, 40);
 }
 
 #menu-h ul{
@@ -37,24 +38,22 @@ transition: background .4s;
 
 #menu-h ul li a:hover{
 
-    background-color:#ee8b1a;
-       
-    }
+background-color:#ee8b1a;
 
-    #menu-h ul li:last-child a {
+}
 
-      float: right;
-      background-color:rgb(243, 243, 103);
-      color: black;
-        }
+#menu-h ul li:last-child a {
 
-        #menu-h ul li:last-child a:hover{
-            background-color:#ee8b1a;
-        } 
+float: right;
+background-color:rgb(243, 243, 103);
+color: black;
+}
+
+#menu-h ul li:last-child a:hover{
+background-color:#ee8b1a;
+}
 
 body{
 
-background-image: url('blackwhite.jpg');
-background-repeat: no-repeat;
-
+background-color: rgb(50, 39, 117);
 }
