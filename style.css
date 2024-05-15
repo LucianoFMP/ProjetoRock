@@ -27,7 +27,7 @@ display: inline;
 #menu-h ul li a{
 
 color:#fff;
-padding: 30px;
+padding: 20px;
 text-decoration: none;
 display: inline-block;
 transition: background .4s;
@@ -50,9 +50,9 @@ transition: background .4s;
         #menu-h ul li:last-child a:hover{
             background-color:#ee8b1a;
         } 
-  
+
 body{
 
-background-collor: stateblue;
-  
+    background-color: rgb(50, 39, 117);
 }
+
