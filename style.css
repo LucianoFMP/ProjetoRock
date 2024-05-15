@@ -38,14 +38,14 @@ transition: background .4s;
 
     }
 
-    #menu-h ulli:last-child a {
+    #menu-h ul li:last-child a {
 
 float: right;
 background-color:rgb(243, 243, 103);
       color: black;
         }
 
-        #menu-h ulli:last-child a:hover{
+        #menu-h ul li:last-child a:hover{
             background-color:#ee8b1a;
         } 
 
