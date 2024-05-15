@@ -2,7 +2,6 @@
 
 * {
 
-position: fixed;
 margin: 0 auto;
 padding: 0;
 box-sizing: border-box;
@@ -23,7 +22,6 @@ background-color:rgb(32, 35, 40);
 #menu-h ul li{
 
 display: inline;
-position: fixed;
 
 }
 
