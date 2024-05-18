@@ -2,27 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="style.css">
-
-  <body>
-
-<nav id="menu-h">
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="curriculo.html">Sobre</a></li>
-<li><a href="autorais.html">Lançamentos</a></li>
-<li><a href="homecards.html">Loja</a></li>
-<li><a href="https://open.spotify.com/intl-pt/artist/2TMlbnArb0kxke9WFQMruB">Spotify</a</li>
-<li><a href="https://www.youtube.com/channel/UCpn0Ke2a3GwJyggU177TofQ" base target="_blank">YouTube</a></li>
-<li><a href="curriculo.html">Contato</a></li>
-</ul>
-</nav>
-</body>
-  
 <style>
 body {
-  font-family: Arial;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
 }
 
@@ -31,9 +13,9 @@ body {
   width: 50%;
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 20;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .left {
@@ -55,27 +37,54 @@ body {
 }
 
 .centered img {
-  width: 200px;
-  border-radius: 80%;
+  width: 250px;
+  border-radius: 10%;
 }
-</style>
+    .button {
+      background-color: #f3f36b;
+      border: none;
+      color: rgb(23, 18, 70);
+      padding: 10px 60px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 32px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+  background-color: #ee8b1a;
+  }
+    </style>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
 
-<div class="split left">
+    <nav id="menu-h">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="curriculo.html">Sobre</a></li>
+        <li><a href="autorais.html">Lançamentos</a></li>
+        <li><a href="cards.html">Loja</a></li>
+        <li><a href="https://open.spotify.com/intl-pt/artist/2TMlbnArb0kxke9WFQMruB">Spotify</a</li>
+        <li><a href="https://www.youtube.com/channel/UCpn0Ke2a3GwJyggU177TofQ" base target="_blank">YouTube</a></li>
+        <li><a href="curriculo.html">Contato</a></li>
+        </ul>
+        </nav>
+
+        <div class="split left">
   <div class="centered">
-    <img src="l4.png">
-    <h2 href="cards.html">Canecas</h2>
-    
+            <a href="camisetas.html"> <img src="l4.png"></a>
+    <button class="button" onclick="document.location='camisetas.html'">Canecas</button> 
   </div>
 </div>
 
 <div class="split right">
   <div class="centered">
-    <img src="l1.png">
-    <h2 href="cards.html">Camisetas</h2>
-      </div>
+        <a href="camisetas.html"> <img src="l1.png"></a>
+            <button class="button" onclick="document.location='camisetas.html'">Camisetas</button> 
+          </div>
 </div>
      
 </body>
-</html> 
+</html>
