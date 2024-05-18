@@ -1,0 +1,40 @@
+
+         
+<body>
+  <div class="container">
+       <div class="product">
+           <div class="image">
+               <img class="product-image" src="l1.png" alt="">
+           </div>
+           <div class="color">
+               <span class="orange active" data-image="l1.png" data-color="#BC8F8F"></span>
+               <span class="green" data-image="l2.png" data-color="#008B8B"></span>
+               <span class="black" data-image="l3.png" data-color="#483D8B"></span>
+               <span class="red" data-image="l4.png" data-color="#DC143C"></span>
+           </div>
+           <div class="title">
+               Camiseta Preta
+           </div>   
+           <div class="detail">
+               <p>Valor: <span>R$ 50</span></p>
+               <a href="#">Adicionar ao carrinho</a>
+           </div>
+       </div>
+   </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <script>
+       $(".color span").click(function(){
+
+        $(".color span").removeClass("active");
+        $(this).addClass("active");
+        $(".detail span").css("color",$(this).attr("data-color"));
+        $(".detail a").css("background",$(this).attr("data-color"));
+        $(".product-image").attr("src",$(this).attr("data-image"));
+        $("body").css("background",$(this).attr("data-color"));
+       });
+   </script>
+
+</body>
+</html>
