@@ -1,65 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPEhtml>
+<htmllang="pt-br">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
-}
-
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 20;
-  overflow-x: hidden;
-  padding-top: 10px;
-}
-
-.left {
-  left: 0;
-  background-color: #111;
-}
-
-.right {
-  right: 0;
-  background-color: rgb(31, 3, 96);
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.centered img {
-  width: 250px;
-  border-radius: 10%;
-}
-    .button {
-      background-color: #f3f36b;
-      border: none;
-      color: rgb(23, 18, 70);
-      padding: 10px 60px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 32px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-
-    .button:hover {
-  background-color: #ee8b1a;
-  }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="camisetas.css">
+    <title>Produtos</title>
 </head>
-<link rel="stylesheet" href="style.css">
-<body>
 
+<link rel="stylesheet" href="style.css">
+
+<body>
+ 
     <nav id="menu-h">
         <ul>
         <li><a href="index.html">Home</a></li>
@@ -71,20 +23,43 @@ body {
         <li><a href="curriculo.html">Contato</a></li>
         </ul>
         </nav>
+        
+ 
+    <div class="container">
+       <div class="product">
+           <div class="image">
+               <img class="product-image" src="camisa1.png" alt="">
+           </div>
+           <div class="color">
+               <span class="cam1 active" data-image="camisa1.png" data-color="#9c7979"></span>
+               <span class="cam2" data-image="camisa2.png" data-color="#250f63"></span>
+               <span class="cam3" data-image="camisa3.png" data-color="#37373b"></span>
+               <span class="cam4" data-image="camisa4.png" data-color="#ae820a"></span>
+               <span class="cam5" data-image="camisa5.png" data-color="#8a0808"></span>
+           </div>
+           <div class="title">
+               Camiseta Personalizada
+           </div>   
+           <div class="detail">
+               <p>Valor: <span>R$ 50</span></p>
+               <a href="#">Adicionar ao carrinho</a>
+           </div>
+       </div>
+   </div>
 
-        <div class="split left">
-  <div class="centered">
-            <a href="canecas.html"> <img src="l4.png"></a>
-    <button class="button" onclick="document.location='canecas.html'">Canecas</button> 
-  </div>
-</div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<div class="split right">
-  <div class="centered">
-        <a href="camisetas.html"> <img src="l1.png"></a>
-            <button class="button" onclick="document.location='camisetas.html'">Camisetas</button> 
-          </div>
-</div>
-     
+   <script>
+       $(".color span").click(function(){
+
+        $(".color span").removeClass("active");
+        $(this).addClass("active");
+        $(".detail span").css("color",$(this).attr("data-color"));
+        $(".detail a").css("background",$(this).attr("data-color"));
+        $(".product-image").attr("src",$(this).attr("data-image"));
+        $("body").css("background",$(this).attr("data-color"));
+       });
+   </script>
+
 </body>
 </html>
