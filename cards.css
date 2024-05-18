@@ -11,12 +11,12 @@ body{
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #008B8B;
+    background: #9c7979;
 }
 
 .container{
-    width: 350px;
-    height: 400px;
+    width: 480px;
+    height: 550px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -31,8 +31,8 @@ body{
 }
 
 .container .product .image{
-    width: 300px;
-    height: 150px;
+    width: 450px;
+    height: 300px;
     margin: auto;
 }
 
@@ -55,25 +55,29 @@ body{
     height: 15px;
     margin: 0 15px;
     border-radius: 50%;
-    background: #008B8B;
+    background: #9c7979;
     cursor: pointer;
     position: relative;
 }
 
-.container .product .color .green{
-    background: #008B8B;
+.container .product .color .cam2{
+    background: #250f63;
 }
 
-.container .product .color .black{
-    background: #483D8B;
+.container .product .color .cam3{
+    background: #37373b;
 }
 
-.container .product .color .red{
-    background: #DC143C;
+.container .product .color .cam4{
+    background: #ae820a;
 }
 
-.container .product .color .orange{
-    background: #FFDEAD;
+.container .product .color .cam5{
+    background: #8a0808;
+}
+
+.container .product .color .cam1{
+    background: #9c7979;
 }
 
 .container .product .color .active::after{
@@ -102,12 +106,12 @@ body{
 }
 
 .container .product .detail p span{
-    color: #008B8B;
+    color: #9c7979;
 }
 
 .container .product .detail a{
     text-decoration: none;
-    background: #008B8B;
+    background: #9c7979;
     padding: 8px 45px;
     border-radius: 8px;
     color: white;
