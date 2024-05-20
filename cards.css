@@ -15,8 +15,8 @@ body{
 }
 
 .container{
-    width: 480px;
-    height: 550px;
+    width: 540px;
+    height: 580px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -31,8 +31,8 @@ body{
 }
 
 .container .product .image{
-    width: 450px;
-    height: 300px;
+    width: 500px;
+    height: 457px;
     margin: auto;
 }
 
